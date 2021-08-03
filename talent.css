@@ -1,0 +1,33 @@
+body {
+background-color: #D3D3D3;
+}
+.profile{
+    margin: 20px;
+    width: 100%;
+}
+.drawn> .art{
+    width: 33%;
+    float: left;
+}
+.art> img{
+    height: 550px;
+    width: 370;
+}
+.middle {
+    position: relative;
+}
+.academic {
+    height: 550px;
+    width: 1200;
+    margin: 20px;
+}
+.academic> .students{
+    float: left;
+    width: 33%;
+    justify-content: space-around;
+}
+.students > img{
+    height: 370px;
+    width: 400px;
+    margin: 10px;
+}
