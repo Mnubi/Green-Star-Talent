@@ -11,7 +11,7 @@ body{
     bottom: 40px;
     font-size: 30px;
 }
-#head{
+#head, h3{
     text-align: center;
 }
 #name, #organization, #email, #number{
@@ -36,7 +36,7 @@ font-size: 20px;
     position: absolute;
     top: 330px;
     left: 600px;
-    background-color: rgb(223, 245, 223);
+    background-color: #c4c4c4;
 }
 #credit, #amount{
     height: 30px;
@@ -50,10 +50,11 @@ font-size: 20px;
      color: white;
  }  
  #button1{
-    background-color: blue;
+    background-color: black;
     font-size: large;
     border-radius: 50px;
-    width: 50%;
+    width: 100%;
+    color: white;
 } 
 .radio{
     width: 20px;
@@ -89,9 +90,9 @@ p{
     color: white;
 }
 #comment{
-    background-color: rgb(223, 245, 223);
+    background-color: #c4c4c4;
     font-size: 20px;
 }
-h3{
-    text-align: center;
+.but:hover{
+    transform: scale(1.1);
 }
