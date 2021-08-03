@@ -3,6 +3,7 @@ body{
     height: 100vh;
     padding-bottom: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 #header{
     color: green;
@@ -11,12 +12,14 @@ body{
     text-align: center;
 }
 #name, #organization, #email, #number{
-width: 300px;
+width: 500px;
 height: 30px;
 border: 2px solid blue;
+border-radius: 50px;
 }
 #comment{
     border: 2px solid blue; 
+    border-radius: 10px;
 }
 .form{
     font-size: 2rem;
@@ -41,6 +44,7 @@ border: 2px solid blue;
     height: 30px;
     width: 300px;
     border-color: indigo;
+    border-radius: 50px;
 }
  #button{
      background-color: blue;
@@ -66,6 +70,8 @@ h2{
     padding: 20px;
 }                                        
 .body{
-    background-color: powderblue;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./talent.jpg");
     margin-top: 20px;
+    background-size: cover;
+    background-attachment: fixed;
 }
