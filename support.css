@@ -7,6 +7,9 @@ body{
 }
 #header{
     color: green;
+    position: relative;
+    bottom: 40px;
+    font-size: 30px;
 }
 #head{
     text-align: center;
@@ -14,12 +17,8 @@ body{
 #name, #organization, #email, #number{
 width: 500px;
 height: 30px;
-border: 2px solid blue;
-border-radius: 50px;
-}
-#comment{
-    border: 2px solid blue; 
-    border-radius: 10px;
+align-items: center;
+font-size: 20px;
 }
 .form{
     font-size: 2rem;
@@ -30,27 +29,25 @@ border-radius: 50px;
 }
 .right{
     font-size: 2rem;
-    padding: 20px;
+    padding: 0px 20px 0px 10px;
     margin: 0;
     height: fit-content;
     width: 300px;
     position: absolute;
-    top: 500px;
-    left: 800px;
-    background-color: olivedrab;
-    border-radius: 50px;
+    top: 330px;
+    left: 600px;
+    background-color: rgb(223, 245, 223);
 }
 #credit, #amount{
     height: 30px;
     width: 300px;
-    border-color: indigo;
-    border-radius: 50px;
 }
  #button{
-     background-color: blue;
+     background-color: black;
      font-size: large;
-     width: 50%;
+     width: 33%;
      border-radius: 50px;
+     color: white;
  }  
  #button1{
     background-color: blue;
@@ -64,14 +61,37 @@ border-radius: 50px;
 }
 h2{
     font-size: 2rem;
+    color: darkkhaki;
 }   
 .head{
+    height: 100px;
     background-color: papayawhip;
     padding: 20px;
 }                                        
 .body{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./talent.jpg");
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./unsplash.jpg");
     margin-top: 20px;
     background-size: cover;
     background-attachment: fixed;
+}
+p{
+    position: absolute;
+    right: 50px;
+    top: 150px;
+    color: white;
+    text-align: center;
+}
+.h3{
+    position: absolute;
+    right: 200px;
+    top: 100px;
+    color: white;
+}
+#comment{
+    background-color: rgb(223, 245, 223);
+    font-size: 20px;
+}
+h3{
+    text-align: center;
 }
