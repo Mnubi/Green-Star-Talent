@@ -1,8 +1,7 @@
 body {
-background-color: #D3D3D3;
-margin: 5px;
-font-family: 'Times New Roman', Times, serif;
-
+    background-color: #D3D3D3;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
 }
 ul{
     display: flex;
@@ -35,6 +34,7 @@ ul li a:hover{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
 }
+
 .drawn> .art{
     width: 33%;
     float: left;
@@ -46,8 +46,9 @@ ul li a:hover{
 .middle {
     margin: 10px;
 }
-.video{
-    margin-left: 200px;
+#vid{
+    display: flex;
+    margin-left: 350px;
 }
 .academic {
     height: 550px;
