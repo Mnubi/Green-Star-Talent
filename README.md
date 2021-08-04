@@ -4,9 +4,9 @@
 ## Description
 {The website searches for talents from people who are marginalized or have a humble background. The website also accepts donations from donors who would like to support the work done.  }
 ## Setup/Installation Requirements
-{There is no special installation is needed. The website runs on all browsers. You can run it on chrome browser.}
+{There is no special installation that is needed. The website runs on all browsers and it is supported on most devices.}
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+{There are no known bugs in this website}
 ## Technologies Used
 {We used following technologies;
 Html
