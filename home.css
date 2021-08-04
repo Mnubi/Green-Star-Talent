@@ -1,0 +1,75 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0em;
+    overflow: hidden;
+    background-color: #c4c4c4;
+}
+li {
+    float: left;
+    padding: 0ex;
+    font-size: 30px;
+  }
+li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#image{
+width: 500px;
+float: left;
+
+}
+.about{
+    position: relative;
+    clear: both;
+    text-align: center;
+    padding-top: 50px;
+}
+.intro{
+    
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+#image2{
+width: 500px;
+float: right;
+}
+.vision{
+    clear: both;
+    text-align: center;
+    padding-top: 50px;
+}
+#image3{
+    width: 500px;
+    float: left;
+}
+#image4{
+    width: 500px;
+    float: right;
+}
+.empower, .creative, .account, #core{
+    text-align: center;
+    padding: 20px;
+}
+.core{
+    display: flex;
+    flex-direction: row;
+    padding-top: 0px;
+    justify-content: space-between;
+}
+.about h2{
+    position: relative;
+    bottom: 50px;
+}
+.core1{
+    clear: both;
+}
+
