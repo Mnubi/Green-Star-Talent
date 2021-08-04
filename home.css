@@ -1,29 +1,28 @@
-html{
-    background: black;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-}
-body{
-    margin: 50px auto 50px auto;
-    background:rgba(207, 197, 197, 0.8);
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-radius: 20px 20px 20px 20px;
-}
-nav{
-    background-color: antiquewhite;
+ul{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 1cm;
-    align-items: center;
-    padding: 20px;
+    list-style-type: none;
     margin: 0px;
-    border-radius: 20px 20px 0px 0px;
+    padding: 0em;
+    overflow: hidden;
+    background-color: #c4c4c4;
 }
+li {
+    float: left;
+    padding: 0ex;
+    font-size: 30px;
+  }
+li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul li a:hover{
+    background-color: #13c039;
+    }
 #title {
     display: flex;
     flex-direction: row;
@@ -31,6 +30,8 @@ nav{
     padding: 20px;
     margin: 5px;
     align-items: center;
+    background: url(Pics/iiona-virgin-Pb8_guWhws4-unsplash.jpg);
+    background-size: 200px, no-repeat;
 }
 #about{
     display: flex;
@@ -48,9 +49,15 @@ nav{
     justify-content: space-around;
     padding: 20px;
     margin: 5px;
+    margin-left: 20px;
     align-items: center;
     background: gray;
     height: 10cm;
+    border-radius: 20px;
+    text-align: center;
+}
+#vision> p{
+    margin-left: 5px;
 }
 #slum, #titleimg, #visimg{
     border-radius: 30px;
@@ -82,6 +89,7 @@ nav{
 #core{
     align-items: center;
     text-align: center;
+    padding: 10px;
 }
 footer{
     background-color: black;
@@ -116,11 +124,14 @@ text-decoration: none;
 color: inherit;
 }
 #aboutpg{
-    background: gray;
+    background: grey;
     text-align: center;
 }
 #aboutint{
     text-align: center;
     align-items: center;
     padding: 15px;
+}
+#valueid{
+    height: 100px;
 }
