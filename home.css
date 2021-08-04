@@ -76,6 +76,7 @@ nav{
     margin: 5px; 
     padding: 10px;
     text-align: center;
+    margin: 10px;
 
 }
 #core{
@@ -117,4 +118,9 @@ color: inherit;
 #aboutpg{
     background: gray;
     text-align: center;
+}
+#aboutint{
+    text-align: center;
+    align-items: center;
+    padding: 15px;
 }
