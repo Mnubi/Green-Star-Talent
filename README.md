@@ -1,4 +1,4 @@
-# {Gree Star Talent kenya}
+# {Green Star Talent kenya}
 #### {This is a website that searches for talents and nurtures them.}, {August 4 2021}
 #### By **{Rodger Kamau, Ian Njenga, Daniel nyutu, Evans Onyego}**
 ## Description

@@ -1,7 +1,11 @@
 body {
-    background-color: #D3D3D3;
+    background-color: #696969;
     margin: 5px;
     font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
 }
 ul{
     display: flex;
