@@ -4,11 +4,6 @@
 ## Description
 {The website searches for talents from people who are marginalized or have a humble background. The website also accepts donations from donors who would like to support the work done.  }
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
 {There is no special installation is needed. The website runs on all browsers. You can run it on chrome browser.}
 ## Known Bugs
 {Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
