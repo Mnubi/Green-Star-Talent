@@ -42,13 +42,13 @@ ul li a:hover{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-    padding: 10px;
+    padding: 20px;
     margin: 5px;
     align-items: center;
     height: 10cm;
     text-align: center;
 }
-#vision{
+#vision1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -60,13 +60,19 @@ ul li a:hover{
     border-radius: 20px;
     text-align: center;
 }
-#vision> p{
-    margin-left: 5px;
+
+#vision{
+    text-align: center;
+    padding: 5px;
 }
-#slum, #titleimg, #visimg{
+#titleimg, #visimg{
     border-radius: 30px;
     width: 500px;
     height: 270px;
+}
+#slum{
+    width: 700px;
+    height: 400px;
 }
 #services{
     display: flex;
@@ -129,7 +135,7 @@ color: inherit;
 #aboutint{
     text-align: center;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
 }
 #valueid{
     height: 100px;
