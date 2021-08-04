@@ -1,3 +1,7 @@
+
+*{
+   
+}
 body{
     width: 100vw;
     height: 100vh;
@@ -95,4 +99,7 @@ p{
 }
 .but:hover{
     transform: scale(1.1);
+}
+
+    
 }
