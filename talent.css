@@ -1,5 +1,8 @@
 body {
 background-color: #D3D3D3;
+margin: 5px;
+font-family: 'Times New Roman', Times, serif;
+
 }
 ul{
     display: flex;
@@ -26,6 +29,8 @@ li a{
 .profile{
     margin: 10px;
     width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
 }
 .drawn> .art{
     width: 33%;
@@ -34,7 +39,9 @@ li a{
 .art> img{
     height: 550px;
     width: 370;
-    /* border-radius: 8%; */
+}
+.middle {
+    margin: 10px;
 }
 .video{
     margin-left: 200px;
