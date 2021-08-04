@@ -1,75 +1,89 @@
-ul{
+html{
+    background: url(Slum_talent/Background.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 50px auto 50px auto;
+    background:rgba(207, 197, 197, 0.8);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px 20px 20px 20px;
+}
+nav{
+    background-color: antiquewhite;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    list-style-type: none;
-    margin: 0px;
-    padding: 0em;
-    overflow: hidden;
-    background-color: #c4c4c4;
-}
-li {
-    float: left;
-    padding: 0ex;
-    font-size: 30px;
-  }
-li a{
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-#image{
-width: 500px;
-float: left;
-
-}
-.about{
-    position: relative;
-    clear: both;
-    text-align: center;
-    padding-top: 50px;
-}
-.intro{
-    
-}
-.header{
-    display: flex;
-    flex-direction: row;
-}
-#image2{
-width: 500px;
-float: right;
-}
-.vision{
-    clear: both;
-    text-align: center;
-    padding-top: 50px;
-}
-#image3{
-    width: 500px;
-    float: left;
-}
-#image4{
-    width: 500px;
-    float: right;
-}
-.empower, .creative, .account, #core{
-    text-align: center;
+    height: 1cm;
+    align-items: center;
     padding: 20px;
+    margin: 0px;
+    border-radius: 20px 20px 0px 0px;
 }
-.core{
+#title{
     display: flex;
     flex-direction: row;
-    padding-top: 0px;
     justify-content: space-between;
+    padding: 20px;
+    margin: 5px;
+    align-items: center;
 }
-.about h2{
-    position: relative;
-    bottom: 50px;
+#about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 5px;
+    align-items: center;
+    background: gray;
+    height: 20cm;
 }
-.core1{
-    clear: both;
+#slum, #title{
+    border-radius: 30px;
 }
+#services{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    background: rgb(177, 119, 119);
+    height: 17cm;
+    margin: 5px;
+    background: url(Slum_talent/slum\ 2.jpg);
 
+}
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 5cm;
+    align-items: flex-end;
+    padding: 20px;
+    margin: 0px;
+    color: white;
+}
+#acqus, #sponsor, #outsource{
+    background: gray;
+    padding: 20px;
+    margin: 2px;
+    width: 85%;
+    border-radius: 20px;
+}
+#serve{
+    background: rgb(161, 131, 131);
+    text-align: center;
+    width: 100%;
+}
+#logo{
+    height: 80px;
+}
+a{
+color: black;
+text-decoration: none;
+color: inherit;
+}
