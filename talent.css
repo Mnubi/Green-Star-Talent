@@ -26,6 +26,9 @@ li a{
   padding: 14px 16px;
   text-decoration: none;
 }
+ul li a:hover{
+    background-color: #13c039;
+    }
 .profile{
     margin: 10px;
     width: 100%;
