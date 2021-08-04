@@ -66,6 +66,15 @@ nav{
     height: 17cm;
     margin: 5px;
 }
+#core{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    background: ;
+    height: 17cm;
+    margin: 5px; 
+}
 footer{
     background-color: black;
     display: flex;
