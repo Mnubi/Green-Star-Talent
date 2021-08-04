@@ -62,18 +62,25 @@ nav{
     flex-direction: column;
     justify-content: left;
     align-items: center;
-    background: rgb(192, 154, 154);
+    background: rgb(161, 131, 131);
     height: 17cm;
     margin: 5px;
+    border-radius: 20px;
 }
-#core{
+#values{
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: space-around;
     align-items: center;
-    background: ;
-    height: 17cm;
+    height: 10cm;
     margin: 5px; 
+    padding: 10px;
+    text-align: center;
+
+}
+#core{
+    align-items: center;
+    text-align: center;
 }
 footer{
     background-color: black;
@@ -97,6 +104,7 @@ footer{
     background: rgb(161, 131, 131);
     text-align: center;
     width: 100%;
+    border-radius: 20px;
 }
 #logo{
     height: 80px;
