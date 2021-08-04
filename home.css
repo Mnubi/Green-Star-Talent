@@ -1,0 +1,144 @@
+html{
+    background: #696969
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0em;
+    overflow: hidden;
+    background-color: #c4c4c4;
+}
+li {
+    float: left;
+    padding: 0ex;
+    font-size: 30px;
+    align-items: center;
+  }
+li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  align-items: center;
+  font-size: medium;
+}
+ul li a:hover{
+    background-color: #13c039;
+    }
+#title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(Pics/iiona-virgin-Pb8_guWhws4-unsplash.jpg);
+    text-align: center;
+    height: 500px;
+    padding: 20px;
+
+}
+#about{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 5px;
+    align-items: center;
+    height: 10cm;
+    text-align: center;
+}
+#vision1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 5px;
+    margin-left: 20px;
+    align-items: center;
+    height: 10cm;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#vision{
+    text-align: center;
+    padding: 5px;
+}
+#titleimg, #visimg{
+    border-radius: 30px;
+    width: 500px;
+    height: 270px;
+}
+#slum{
+    width: 700px;
+    height: 400px;
+}
+#services{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    background: rgb(161, 131, 131);
+    height: 17cm;
+    margin: 5px;
+    border-radius: 20px;
+}
+#values{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10cm;
+    margin: 5px; 
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+
+}
+#core{
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+footer{
+    color: rgb(0, 0, 0);
+    height: 40px;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+}
+#acqus, #sponsor, #outsource{
+    background: #696969;
+    padding: 20px;
+    margin: 2px;
+    width: 85%;
+    border-radius: 20px;
+}
+#serve{
+    background: rgb(161, 131, 131);
+    text-align: center;
+    width: 100%;
+    border-radius: 20px;
+}
+#logo{
+    height: 80px;
+}
+a{
+color: black;
+text-decoration: none;
+color: inherit;
+}
+#aboutpg{
+    text-align: center;
+}
+#aboutint{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+#valueid{
+    height: 100px;
+}
