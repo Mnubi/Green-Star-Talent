@@ -12,8 +12,9 @@ body{
 #header{
     color: green;
     position: relative;
-    bottom: 40px;
     font-size: 30px;
+    text-align: center;
+    font-size: 2rem;
 }
 #head, h3{
     text-align: center;
@@ -76,7 +77,7 @@ h2{
 .body{
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./unsplash.jpg");
-    margin-top: 20px;
+    margin-top: 70px;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -101,5 +102,6 @@ p{
     transform: scale(1.1);
 }
 
+
     
-}
+
