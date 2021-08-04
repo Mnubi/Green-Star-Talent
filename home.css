@@ -1,5 +1,5 @@
 html{
-    background: url(Slum_talent/Background.jpg);
+    background: grey;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -24,7 +24,7 @@ nav{
     margin: 0px;
     border-radius: 20px 20px 0px 0px;
 }
-#title{
+#title {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -42,8 +42,10 @@ nav{
     background: gray;
     height: 20cm;
 }
-#slum, #title{
+#slum, #titleimg{
     border-radius: 30px;
+    width: 500px;
+    height: 250px;
 }
 #services{
     display: flex;
