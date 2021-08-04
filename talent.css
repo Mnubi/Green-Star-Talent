@@ -1,8 +1,30 @@
 body {
 background-color: #D3D3D3;
 }
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0em;
+    overflow: hidden;
+    background-color: #c4c4c4;
+}
+li {
+    float: left;
+    padding: 0ex;
+    font-size: 30px;
+  }
+li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 .profile{
-    margin: 20px;
+    margin: 10px;
     width: 100%;
 }
 .drawn> .art{
@@ -12,9 +34,10 @@ background-color: #D3D3D3;
 .art> img{
     height: 550px;
     width: 370;
+    /* border-radius: 8%; */
 }
-.middle {
-    position: relative;
+.video{
+    margin-left: 200px;
 }
 .academic {
     height: 550px;
@@ -30,4 +53,5 @@ background-color: #D3D3D3;
     height: 370px;
     width: 400px;
     margin: 10px;
+    border-radius: 8%;
 }
