@@ -24,6 +24,7 @@ li a{
   padding: 14px 16px;
   text-decoration: none;
   align-items: center;
+  font-size: medium;
 }
 ul li a:hover{
     background-color: #13c039;
@@ -36,6 +37,7 @@ ul li a:hover{
     background-image: url(Pics/iiona-virgin-Pb8_guWhws4-unsplash.jpg);
     text-align: center;
     height: 500px;
+    padding: 20px;
 
 }
 #about{
